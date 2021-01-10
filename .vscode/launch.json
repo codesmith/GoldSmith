@@ -1,0 +1,70 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Main2",
+      "request": "launch",
+      "mainClass": "q04.Main2",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "q04.Main",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(1)",
+      "request": "launch",
+      "mainClass": "q07.Main",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(2)",
+      "request": "launch",
+      "mainClass": "q08.Main",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(3)",
+      "request": "launch",
+      "mainClass": "q09.Main",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(4)",
+      "request": "launch",
+      "mainClass": "q10.Main",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(5)",
+      "request": "launch",
+      "mainClass": "q14.Main",
+      "projectName": "Chapter09"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main(6)",
+      "request": "launch",
+      "mainClass": "q15.Main",
+      "projectName": "Chapter09"
+    }
+  ]
+}

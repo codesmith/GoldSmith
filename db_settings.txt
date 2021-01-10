@@ -1,0 +1,18 @@
+
+JavaDB ===============================
+> set path=path;%JDK_HOME%\db\bin
+> ij
+ij> connect 'jdbc:derby:%ECLIPSE_WORKSPACE%\Chapter09\db\sample;create=true';
+==============================================================================
+
+create table employee(id int primary key, name varchar(15), department varchar(15));
+create table customer(id int primary key, name varchar(15));
+create table dt(d date, t time, ts timestamp);
+insert into dt values('2016-09-01', '12:30:15', '2016-09-01 12:30:15');
+insert into employee values(1, 'John', 'R&D');
+insert into employee values(2, 'Bill', 'Sales');
+insert into employee values(3, 'Eric', 'Accounting');
+insert into customer values(1, 'Oracle');
+insert into customer values(2, 'IBM');
+insert into customer values(3, 'Microsoft');
+
